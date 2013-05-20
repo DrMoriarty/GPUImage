@@ -8,7 +8,9 @@
 typedef enum {
 	GPUPixelFormatBGRA = GL_BGRA,
 	GPUPixelFormatRGBA = GL_RGBA,
-	GPUPixelFormatRGB = GL_RGB
+	GPUPixelFormatRGB = GL_RGB,
+    GPUPixelFormatAlpha = GL_ALPHA,
+    GPUPixelFormatLuminance = GL_LUMINANCE
 } GPUPixelFormat;
 
 typedef enum {

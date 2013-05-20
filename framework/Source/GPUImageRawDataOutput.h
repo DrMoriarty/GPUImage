@@ -33,4 +33,5 @@ typedef struct GPUByteColorVector GPUByteColorVector;
 - (GPUByteColorVector)colorAtLocation:(CGPoint)locationInImage;
 - (NSUInteger)bytesPerRowInOutput;
 
+- (void)destroyDataFBO;
 @end
