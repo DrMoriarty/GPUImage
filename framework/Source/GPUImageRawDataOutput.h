@@ -47,4 +47,5 @@ typedef struct GPUByteColorVector GPUByteColorVector;
 - (NSUInteger)bytesPerRowInOutput;
 
 - (void)destroyDataFBO;
+- (void)setImageSize:(CGSize)newImageSize;
 @end
